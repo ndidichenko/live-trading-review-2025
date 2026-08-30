@@ -1,0 +1,25 @@
+# ---- NEVER COMMIT ----
+# Raw exchange exports, unredacted screenshots, manual blotter, private notes.
+private/
+exports/
+*.xlsx
+*.xls
+
+# Anything that could carry account identifiers
+*Futures_History_Orders*
+*Futures_Trade_History*
+*Futures_Limit_Orders*
+*53534434*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
